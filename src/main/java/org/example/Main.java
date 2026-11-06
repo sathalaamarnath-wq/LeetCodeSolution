@@ -16,6 +16,7 @@ public class Main {
             System.out.printf("Indices: %d, %d%n", result[0], result[1]);
         } else {
             System.out.println("No two sum solution found.");
+            System.out.println("The target value is: " + target);
         }
     }
 
