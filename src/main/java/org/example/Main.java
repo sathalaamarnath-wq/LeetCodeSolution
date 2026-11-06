@@ -14,6 +14,8 @@ public class Main {
         int[] result = twoSumValues.new Solution().twoSum(nums, target);
         if (result.length == 2) {
             System.out.printf("Indices: %d, %d%n", result[0], result[1]);
+        } else {
+            System.out.println("No two sum solution found.");
         }
     }
 
